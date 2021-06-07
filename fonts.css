@@ -1,6 +1,11 @@
-/* font family noto */
+/* font family  */
 
 @font-face {
   font-family: "Noto Sans JP", sans-serif;
-  src: url("fonts/NotoSansJP-Regular.otf");
+  src: url("fonts/Noto/NotoSansJP-Regular.otf");
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("fonts/Monteserrat/Montserrat-Regular.ttf");
 }
