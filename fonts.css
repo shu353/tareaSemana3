@@ -1,0 +1,6 @@
+/* font family noto */
+
+@font-face {
+  font-family: "Noto Sans JP", sans-serif;
+  src: url("fonts/NotoSansJP-Regular.otf");
+}

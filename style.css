@@ -1,8 +1,14 @@
+@import url(fonts.css);
+
 * {
   box-sizing: border-box;
 }
 
 /* GLOBAL VARIABLES*/
+
+:root {
+  --Noto: "Noto";
+}
 
 body {
   font-family: Arial;
@@ -32,17 +38,16 @@ img {
   width: auto;
   height: 85vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.site-background {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 15%;
-  background-color: red;
+.site-title > div {
+  width: 100px;
+  margin: 10px;
+  color: white;
+  font-family: var(--Noto);
+  font-size: 15vh;
 }
 
 .row {
